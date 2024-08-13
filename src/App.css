@@ -1,3 +1,4 @@
+
 .App {
   text-align: center;
 }
@@ -35,4 +36,167 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.Navbar {
+  background-color: #21468f;
+  color: rgb(172, 172, 172);
+  height: 60px;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.ActivePage {
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  font-size: 22px;
+  border-radius: 7%;
+  margin-left: 20px;
+  padding: 6px;
+  font-family:Georgia;
+}
+
+.InActivePage {
+  background-color: #5a5a5ac9;
+  color: rgba(230, 230, 230, 0.897);
+  font-size: 20px;
+  border-radius: 7%;
+  margin-left: 12px;
+  padding: 6px;
+  font-family: Arial Narrow;
+}
+
+h3{
+  color:rgb(209, 223, 21);
+  margin:5px;
+}
+
+h4{
+  color:rgb(21, 18, 206);
+  margin:5px;
+}
+
+
+table {
+  border-collapse: collapse; /* Ensures borders between cells are merged */
+  width: 100%; /* Adjust the table width as needed */
+  table-layout: auto;
+  width: 60%;
+  align-content: center;
+  margin:auto;
+}
+
+th, td {
+  border: 1px solid black; /* Adds a 1-pixel solid black border to cells */
+  padding: 8px; /* Adds some padding inside cells */
+}
+
+th {
+  background-color: #f2f2f2; /* Optional: Adds a background color to header cells */
+}
+
+.boxDisplay {
+  border: 2px solid black;
+  margin: 5px;
+  width: 50%;
+  justify-content: center;
+}
+
+.Q14listItem {
+  color: blue;
+  text-align: left;
+}
+
+ul.Q14UOlistItem {
+  list-style-type: none; /* Remove default bullets */
+  padding-left: 5px; 
+  
+}
+
+ul.Q14UOlistItem li {
+  background: url('../public/arrow.png') no-repeat left center; 
+  background-size: 10px 10px; 
+  padding-left: 20px; 
+  color: rgb(19, 230, 212);
+  
+}
+
+.darkBG{
+  background-color: rgb(46, 6, 6);
+  color:antiquewhite;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr); 
+      grid-template-rows: repeat(8, 1fr);
+  gap: 3px;
+  width:40%;
+  height:40%;
+}
+.grid-item {
+  background-color: lightgray;
+  padding: 5px;
+  text-align: center;
+}
+.main {
+  position: relative; /* Ensure the watermark is positioned relative to this container */
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh; /* Full viewport height */
+  padding: 20px;
+  background-color: #f4f4f4; /* Light background color for contrast */
+}
+
+.main::before {
+  content: "";
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-image: url('../public/GhouseCodesLogo.png'); /* Path to your watermark image */
+  background-repeat: no-repeat;
+  background-size: contain; /* Adjust size to fit your needs */
+  width: 800px; /* Width of the watermark */
+  height: 800px; /* Height of the watermark */
+  opacity: 0.1; /* Adjust opacity to make watermark less intrusive */
+  pointer-events: none; /* Ensure the watermark doesn’t interfere with user interaction */
+  z-index: 1; /* Ensure the watermark is below other content */
+}
+
+h1, p {
+  z-index: 2; /* Ensure text is above watermark */
+}
+
+div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.mousepointer{
+  margin: 20px;
+  padding:15px;
+  height:300px;
+  width:450px;
+  border: 2px solid red;
+  
+}
+
+.circle{
+  margin-top: 20px;
+  height:10px;
+  width:10px;
+  border: 2px solid red;
+  border-radius: 50%;
+  
 }
