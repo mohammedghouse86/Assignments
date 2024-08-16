@@ -1,0 +1,90 @@
+/* WebPage.css */
+
+/* Task 1: Table with black border and hover effect */
+.interactive-table {
+    border: 2px solid black;
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .interactive-table th, .interactive-table td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .interactive-table:hover {
+    background-color: lightblue;
+  }
+  
+  /* Task 2: Visibility and Display properties */
+  .hidden-div {
+    visibility: hidden;
+  }
+  
+  .visible-div {
+    visibility: visible;
+  }
+  
+  .collapse-div {
+    visibility: collapse;
+  }
+  
+  .none-div {
+    display: none;
+  }
+  
+  .inline-div {
+    display: inline;
+  }
+  
+  .block-div {
+    display: block;
+  }
+  
+  .contents-div {
+    display: contents;
+  }
+  
+  .list-item-div {
+    display: list-item;
+  }
+  
+  /* Task 3: Smooth scrolling */
+  .scroll-link {
+    display: inline-block;
+    margin: 10px 0;
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  /* Task 4: Padding and Margin */
+  .padding-box {
+    padding: 20px;
+    background-color: lightcoral;
+    margin: 20px 0;
+  }
+  
+  .margin-box {
+    margin: 20px;
+    padding: 10px;
+    background-color: lightgreen;
+  }
+  
+  /* Task 5: Multiple Background Images */
+  .multiple-backgrounds {
+    width: 300px;
+    height: 200px;
+    background-image: url('https://via.placeholder.com/150/FF0000/FFFFFF?text=Image1'),
+                      url('https://via.placeholder.com/150/00FF00/FFFFFF?text=Image2');
+    background-size: 100px 100px, 150px 150px;
+    background-position: top left, bottom right;
+    background-repeat: no-repeat, no-repeat;
+    border: 1px solid black;
+  }
+  

@@ -200,3 +200,11 @@ div{
   border-radius: 50%;
   
 }
+
+.horizontal-ray {
+  width: 100vw;
+  height: 5px; /* Adjust the height to make the ray thicker or thinner */
+  background-color: #FFD700; /* You can choose any color for the ray */
+  box-shadow: 0 0 10px rgba(255, 215, 0, 0.7); /* Adds a glowing effect */
+  margin: 20px 0; /* Adjusts the vertical spacing around the ray */
+}
