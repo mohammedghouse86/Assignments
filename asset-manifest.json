@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/Assignments/static/css/main.af99d518.css",
+    "main.js": "/Assignments/static/js/main.49d4e80a.js",
+    "static/js/453.68f12bbc.chunk.js": "/Assignments/static/js/453.68f12bbc.chunk.js",
+    "static/media/GhouseCodesLogo.png": "/Assignments/static/media/GhouseCodesLogo.b9aeb9e2758be5014d09.png",
+    "static/media/arrow.png": "/Assignments/static/media/arrow.1d87a0634be8a62f6349.png",
+    "index.html": "/Assignments/index.html",
+    "main.af99d518.css.map": "/Assignments/static/css/main.af99d518.css.map",
+    "main.49d4e80a.js.map": "/Assignments/static/js/main.49d4e80a.js.map",
+    "453.68f12bbc.chunk.js.map": "/Assignments/static/js/453.68f12bbc.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.af99d518.css",
+    "static/js/main.49d4e80a.js"
+  ]
+}
