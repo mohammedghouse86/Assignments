@@ -1,0 +1,32 @@
+.navbar-container {
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .navbar {
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    white-space: nowrap;
+    width: 100%; /* or use a specific width, like 70vw */
+  }
+  
+  .navbar::-webkit-scrollbar {
+    display: none; /* Hide the scrollbar for a cleaner look */
+  }
+  
+  .ActivePage, .InActivePage {
+    padding: 10px15px;
+    text-decoration: none;
+    color: white;
+    background-color: #333;
+    margin: 05px;
+    border-radius: 5px;
+  }
+  
+  .ActivePage {
+    background-color: #555;
+  }
+  

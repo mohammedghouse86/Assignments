@@ -1,6 +1,7 @@
 
 .App {
-  text-align: center;
+  text-align: right;
+  width:100vw;
 }
 
 .App-logo {
@@ -15,7 +16,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #1148b6;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -42,12 +43,48 @@
   background-color: #21468f;
   color: rgb(172, 172, 172);
   height: 60px;
-  width: 100vw;
   display: flex;
   flex-direction: row;
   align-items: center;
-  margin-bottom: 20px;
+  width:100vw;
 }
+
+.NavHeader{
+  background-color: #21468f;
+  height: 60px;
+  display:flex;
+  width:100vw;
+  align-items: flex-end;
+}
+.MobileNavbar{
+  margin: 10px;
+  margin-top: 55px;
+  width:40vw;
+  height: 100vh;
+  background-color: rgba(32, 32, 32, 0.048);
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  right: 0;
+  top: 0; 
+  backdrop-filter: blur(10px);
+  z-index: 999;
+}
+
+@media(max-width: 1530px){
+  .hideonMobile{
+    display: none;
+  }
+}
+@media(min-width: 1530px){
+  .hideonPC{
+    display: none;
+  }
+}
+
+/*.Navbar::-webkit-scrollbar {
+  display: none; /* Hide the scrollbar for a cleaner look */
+/*}*/
 
 .ActivePage {
   background-color: #ffffff;

@@ -62,7 +62,6 @@ const Q8 = () => {
     <div
       style={{
         color: "blue",
-        height: "100vh",
       }}
     >
       <h3>Using 'this' keyword and also making text disappear</h3>

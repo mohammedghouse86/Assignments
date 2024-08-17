@@ -17,12 +17,8 @@ const Q13 = () => {
     console.log(e.clientX,e.clientY);
     console.log(x,y);
     setTimeout(()=>{
-      if(e.clientX<700){
-      setX(e.clientX+'px');}
-      else{setX('700px')}
-      if(e.clientY<477){
-        setY(e.clientY+'px');}
-        else{setY('477px')}
+      setX(e.clientX+'px');
+      setY(e.clientY+'px');
     },300)
   }
 
@@ -60,7 +56,7 @@ const Q13 = () => {
       </tr>
     }))}
     else{
-      sethtml(<h3>THE TABLE IS HIDDEN</h3>)
+      sethtml(<thead>THE TABLE IS HIDDEN</thead>)
     }
     //console.log(users);
   },[users, visible])
@@ -76,7 +72,7 @@ const Q13 = () => {
               <th>Designation</th>
             </tr>
           </thead>
-          <tbody>{html}</tbody>
+          {html}
         </table>
       <div className='mousepointer' onMouseMove={handleMouse}>
         <div className='circle' style={{ position: 'absolute', top:y,left:x}}></div>
